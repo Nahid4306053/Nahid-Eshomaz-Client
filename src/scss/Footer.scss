@@ -1,0 +1,61 @@
+@import '../Variable.scss';
+
+footer{
+    margin-top: 100px;
+    padding: 100px 0px;
+    background-color: #001428;
+    ul{li{
+        a{  display: block;
+            color: $text;
+            padding: 10px 0px;
+        }
+        a:hover{
+            color: $secondray;
+        }
+    }}
+    form{
+      .form-control,.input-group-text{
+        @include Border-radious(0px);
+
+        border: none;
+        font-weight: 600;
+      }    
+      
+      .input-group-text{
+          font-weight: 600;
+        font-size: 12px;
+        @include Border-radious(0px);
+        text-transform: uppercase;
+        background-color: $secondray !important;
+      } 
+      .form-control::placeholder{
+       font-size: 13px;
+       
+      } 
+    }
+    .social{
+        margin-top: -30px;
+        .icon{
+            .item{
+                cursor: pointer;
+                margin-right: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @include transition(.5s);
+               padding: 10px;
+              background-color: $secondray;  
+              i{
+                  cursor: pointer;
+                @include transition(.5s);    
+              }
+            }
+            .item:hover{
+              background-color: $primery;
+              i{  
+                  color: $secondray;
+              }  
+            }
+        }
+    }
+}

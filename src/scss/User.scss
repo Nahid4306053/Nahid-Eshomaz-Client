@@ -1,0 +1,15 @@
+@import '../Variable.scss';
+
+.social-icons{
+     margin-left: -10px;
+    a{
+        i{  @include transition(.3s);
+            color: $primery ;
+            padding: 0px 5px;
+            font-size: 20px;
+        }
+        i:hover{
+            color: $secondray;
+        }
+    }
+}

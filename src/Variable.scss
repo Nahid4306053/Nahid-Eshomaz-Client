@@ -1,0 +1,155 @@
+// ===========================================================
+//              Common Css
+// ===========================================================
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500&display=swap');
+
+
+// CSS rules to specify families
+
+//     font-family: 'Roboto', sans-serif;
+
+//     font-family: 'Rubik', sans-serif;
+$primery: #002347;
+$secondray: #fdc632;
+$text: #7b838a;
+
+.bg {
+    background-color: $primery
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap');
+$Heebo: 'Heebo',
+sans-serif;
+$Lato: 'Lato',
+sans-serif;
+$Roboto: 'Roboto',
+sans-serif;
+$Rubik: 'Rubik',
+sans-serif;
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    color: $text;
+}
+
+i {
+    font-family: $Lato;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+@mixin Border-radious($value) {
+    border-radius: $value;
+    -webkit-border-radius: $value !important;
+    -moz-border-radius: $value !important;
+    -ms-border-radius: $value !important;
+    -o-border-radius: $value !important;
+}
+
+@mixin transition($value) {
+    transition: $value !important;
+    -webkit-transition: $value !important;
+    -moz-transition: $value !important;
+    -ms-transition: $value !important;
+    -o-transition: $value !important;
+
+}
+
+@mixin transform-scale($value) {
+    transform: scale($value);
+    -webkit-transform: scale($value);
+    -moz-transform: scale($value);
+    -ms-transform: scale($value);
+    -o-transform: scale($value);
+}
+
+
+
+
+
+ul,
+li,
+a,
+p,
+span {
+    font-family: $Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    color: $text;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-family: $Rubik;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-family: $Rubik;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+
+h3 {
+    font-family: $Rubik;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+h4 {
+    font-family: $Rubik;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+button {
+    font-family: $Lato;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+ul {
+    li {
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+#manu:hover {
+    .dropdown-menu {
+        display: block;
+    }
+}
+
+p {
+    line-height: 25px;
+}

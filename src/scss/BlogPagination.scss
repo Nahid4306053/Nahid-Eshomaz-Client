@@ -1,0 +1,43 @@
+@import '../Variable.scss';
+
+.pagination{
+       
+    @include Border-radious(0px);
+    .page-item{
+       
+    .page-link{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        padding: 10px 15px;
+        @include transition(.5s);
+        background-color: $secondray !important;
+        border: none !important;
+        @include Border-radious(0px);
+        background-color: white !important; 
+        i{  
+            color: $text;
+            font-size: 20px;
+            
+        }
+    }
+    .page-link:hover{
+       color: white;
+        background-color: $secondray !important;
+        i{
+            color: white;
+        }
+    }
+    .active{
+        font-weight: 600;
+        padding: 10px 15px;
+        @include transition(.5s);
+        border: none !important;
+        @include Border-radious(0px);
+        color: white;
+        background-color: $secondray !important;
+    }
+
+    }
+}

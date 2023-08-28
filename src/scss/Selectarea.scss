@@ -1,0 +1,15 @@
+@import '../Variable.scss';
+
+select{
+ 
+ color: $primery !important;
+ font-weight: bold !important;
+  option{
+    color: $primery !important;
+    font-weight: bold !important;
+  }
+  option:hover{
+   background: #000 !important;
+  }
+  
+}

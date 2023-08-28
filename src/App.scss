@@ -1,0 +1,38 @@
+@import './Variable.scss';
+.sub-title {
+    color: #ffffff;
+    background-color: #002347;
+    padding: 10px;
+    text-align: center;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  *::-webkit-scrollbar-thumb {
+    background: #888; 
+      border-radius:10px;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    
+    background: #555; 
+  } 
+
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  body::-webkit-scrollbar-track {
+    background: $primery; 
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #888; 
+      border-radius:10px;
+  }
+  body::-webkit-scrollbar-thumb:hover {
+    
+    background: #555; 
+  } 
+  

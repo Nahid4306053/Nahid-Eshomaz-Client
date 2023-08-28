@@ -1,0 +1,26 @@
+@import '../Variable.scss';
+
+.categorey{ 
+            
+    li{ cursor: pointer;
+        @include transition(.5s);
+        margin-top: 25px;
+        border-bottom: 2px dotted rgba(0, 0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+       p{@include transition(.5s);
+        font-size: 14px;
+       } 
+       a{@include transition(.5s);
+        font-size: 16px;
+       }
+    }
+    li:hover{
+        border-bottom: 2px dotted $secondray;
+       p,a{
+        color:$secondray;
+       } 
+       
+    }
+
+}

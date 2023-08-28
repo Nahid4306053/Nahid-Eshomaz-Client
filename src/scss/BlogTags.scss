@@ -1,0 +1,21 @@
+@import '../Variable.scss';
+
+.tags{
+    .tagses{
+        
+        span{ 
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 5px;
+            font-size: 14px;
+            color: #002347;
+            font-weight: 600;
+            padding: 10px 20px;
+            
+        }
+        span:hover{
+            background-color: $primery;
+            color: rgb(255, 255, 255);
+        }
+    }
+}

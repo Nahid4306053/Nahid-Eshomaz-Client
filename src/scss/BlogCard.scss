@@ -1,0 +1,156 @@
+@import '../Variable';
+
+.info {
+    ul {
+        font-size: 14px;
+        text-align: right;
+        padding: 0;
+
+        li {
+            p {
+                font-size: 14px;
+                line-height: 25px;
+
+                a {
+                    font-size: 14px;
+                    color: #002347;
+                    cursor: pointer;
+                }
+
+                a:hover {
+                    color: #fdc632;
+                }
+
+                .active {
+                    font-size: 14px;
+                    cursor: pointer;
+                    color: #fdc632;
+                }
+
+                .active:hover {
+                    color: #fdc632;
+                }
+            }
+        }
+
+        .infos {
+            margin-top: 15px;
+
+            a {
+                font-size: 14px;
+                color: #7b838a;
+                cursor: pointer;
+            }
+
+            a:hover {
+                color: #fdc632;
+            }
+
+            i {
+                margin-left: 10px;
+                font-size: 19px;
+                cursor: pointer;
+                color: #002347;
+            }
+
+        }
+
+        .infos:hover {
+            a {
+                color: #fdc632;
+            }
+        }
+    }
+}
+
+.cata_gorey {
+    ul {
+        text-align: right;
+        padding: 0;
+         border: none;
+        li {
+       
+            a {
+                font-size: 16px;
+                margin-right: 10px;
+                color: #002347;
+                cursor: pointer;
+                font-weight: 500;
+                i{
+                    color: #002347; 
+                }
+            }
+
+            a:hover {
+                color: #fdc632;
+                i{
+                    color: #fdc632;
+                }
+            }
+
+            .active {
+                cursor: pointer;
+                color: #fdc632;
+                i{
+                    color: #fdc632;
+                }
+            }
+
+            .active:hover {
+                color: #fdc632;
+            }
+
+        }
+    }
+}
+
+.content-part-2 {
+    h3 {
+        a {
+            @include transition(.5s);
+            display: block;
+            margin-top: 20px;
+            font-weight: 600;
+            font-size: 25px;
+            color: $primery;
+        }
+
+        a:hover {
+            color: $secondray;
+        }
+    }
+
+    button {
+        @include transition(.5s);
+        border: 0px;
+        border: 1px solid transparent;
+        background-color: $primery;
+        padding: 10px 30px;
+
+        a {
+            @include transition(.5s);
+            font-size: 14px;
+            color: $secondray;
+            font-weight: 600;
+        }
+    }
+
+    button:hover {
+        background-color: transparent;
+        border-color: $primery;
+
+        a {
+            color: $primery;
+        }
+    }
+}
+
+.blog_details{
+    ul{
+        li{
+            a{
+                color: #002347;
+            }
+        }
+    }
+}
