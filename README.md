@@ -4,6 +4,11 @@
 
 "Nahid Eshomz" is a blog management website that empowers users to write, edit, comment, view, and like blog posts. It provides a seamless and user-friendly experience for content creation and engagement.
 
+## Live Website Preview
+[![Project Screenshot](https://i.ibb.co/4gX0rfz/full-web-priview.png)](https://nahid-eshomaz.netlify.app/)
+
+[Click to View Live Website](https://nahid-eshomaz.netlify.app/)
+
 ## Key Features
 
 ### 1. User Authentication
@@ -50,5 +55,5 @@
 
 ### Deployment
 
-- ** Hosting: ** Netlify
+- **Hosting:** Netlify
 - **Vercel:** Deploying and hosting the backend server.
