@@ -43,7 +43,8 @@
 
 - **React.js:** Building a dynamic and responsive user interface.
 - **React Router:** Handling navigation within the application.
-- **State Management (e.g., Redux):** Managing global state for user authentication, blog posts, and comments.
+- **For UI Design:** use CSS, SCSS, tailwind CSS,
+- **Language:** Javascript
 
 ### Backend
 
